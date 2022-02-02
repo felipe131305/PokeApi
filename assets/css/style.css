@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color:black;
+      
+  }
+  
+  .header {
+    width: 100%;
+    z-index: 1;
+  }
+  .headerStyle {
+    color: #4447ff;
+  }
+  
+  .characters{
+      margin-top: 100px;
+      margin-bottom: 60px;
+  }
+  .cardHover :hover{
+    transform: translateY(-15px);
+    box-shadow: #00ffff;
+  }
+  .pagination{display: flexbox;
+    margin: auto;
+    width: 10%;
+    }  
+    .texto-borde {
+      -webkit-text-stroke: 2.5px blue;
+      color: yellow; 
+      font-size: 65px;
+      font-style: oblique;
+    }
+
+    .card {
+      border-width: 4px; ;
+      border-style:solid ;
+      border-color: tomato;
+      
+    }
